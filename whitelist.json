@@ -1,5 +1,5 @@
 {
-  "version": "1.3",
+  "version": "1.0",
   "description": "Anticheat V5 Whitelist. Level 1 = global_publishers: cek signature saja, tidak perlu ada di processes/dll_whitelist. Level 2 = processes & dll_whitelist: hanya untuk publisher yang TIDAK ada di Level 1.",
 
   "global_publishers": [
