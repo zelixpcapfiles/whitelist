@@ -1,48 +1,47 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "description": "Anticheat V5 Whitelist. Level 1 = global_publishers: cek signature saja, tidak perlu ada di processes/dll_whitelist. Level 2 = processes & dll_whitelist: hanya untuk publisher yang TIDAK ada di Level 1.",
 
   "global_publishers": [
     { "publisher": "Microsoft Windows" },
     { "publisher": "Microsoft Windows Publisher" },
-	{ "publisher": "Discord Inc." },
-	{ "publisher": "Bluestack Systems, Inc" },
-	{ "publisher": "Now.gg, INC" },
-	{ "publisher": "NVIDIA Corporation" },
-	{ "publisher": "Realtek Semiconductor Corp." },
-	{ "publisher": "Hangzhou Shunwang Technology Co.,Ltd" },
-	{ "publisher": "Hoa Binh Informatics .,JSC" },
-	{ "publisher": "Skutta Software GmbH" },
-	{ "publisher": "DUC FABULOUS CO.,LTD" },
-	{ "publisher": "Cloudflare, Inc." },
-	{ "publisher": "Valve Corp." },
+    { "publisher": "Discord Inc." },
+    { "publisher": "Bluestack Systems, Inc" },
+    { "publisher": "Now.gg, INC" },
+    { "publisher": "NVIDIA Corporation" },
+    { "publisher": "Realtek Semiconductor Corp." },
+    { "publisher": "Hangzhou Shunwang Technology Co.,Ltd" },
+    { "publisher": "Hoa Binh Informatics .,JSC" },
+    { "publisher": "Skutta Software GmbH" },
+    { "publisher": "DUC FABULOUS CO.,LTD" },
+    { "publisher": "Cloudflare, Inc." },
+    { "publisher": "Valve Corp." },
     { "publisher": "Microsoft Corporation" }
-  ], 
+  ],
 
   "processes": [
-    { "name": "system",                         "path_prefix": "", "publisher": "" },
-    { "name": "registry",                       "path_prefix": "", "publisher": "" },
-    { "name": "idle",                           "path_prefix": "", "publisher": "" }
+    { "name": "system",              "path_prefix": "", "publisher": "" },
+    { "name": "registry",            "path_prefix": "", "publisher": "" },
+    { "name": "idle",                "path_prefix": "", "publisher": "" },
+    { "name": "memory compression",  "path_prefix": "", "publisher": "" },
+    { "name": "secure system",       "path_prefix": "", "publisher": "" },
+    { "name": "vmmem",               "path_prefix": "", "publisher": "" }
   ],
 
   "dll_whitelist": {
     "hd-player.exe": [
-      { "dll": "agora_rtc_sdk.dll",      "path_prefix": "", "publisher": "上海兆言网络科技有限公司" },
-      { "dll": "libaosl.dll",            "path_prefix": "", "publisher": "上海兆言网络科技有限公司" },
-      { "dll": "libagora-soundtouch.dll","path_prefix": "", "publisher": "上海兆言网络科技有限公司" },
-      { "dll": "libagora-ffmpeg.dll",    "path_prefix": "", "publisher": "上海兆言网络科技有限公司" },
-      { "dll": "libagora-fdkaac.dll",    "path_prefix": "", "publisher": "上海兆言网络科技有限公司" },
-      { "dll": "game_detour_64.dll",     "path_prefix": "", "publisher": "TikTok Pte. Ltd." },
-      { "dll": "graphics-hook64.dll",    "path_prefix": "", "publisher": "OBS Project, LLC" },
-      { "dll": "vulkan-1.dll",           "path_prefix": "C:\\Windows\\System32\\", "publisher": "LunarG, Inc." }
+      { "dll": "agora_rtc_sdk.dll",       "path_prefix": "", "publisher": "上海兆言网络科技有限公司" },
+      { "dll": "libaosl.dll",             "path_prefix": "", "publisher": "上海兆言网络科技有限公司" },
+      { "dll": "libagora-soundtouch.dll", "path_prefix": "", "publisher": "上海兆言网络科技有限公司" },
+      { "dll": "libagora-ffmpeg.dll",     "path_prefix": "", "publisher": "上海兆言网络科技有限公司" },
+      { "dll": "libagora-fdkaac.dll",     "path_prefix": "", "publisher": "上海兆言网络科技有限公司" },
+      { "dll": "game_detour_64.dll",      "path_prefix": "", "publisher": "TikTok Pte. Ltd." },
+      { "dll": "graphics-hook64.dll",     "path_prefix": "", "publisher": "OBS Project, LLC" },
+      { "dll": "vulkan-1.dll",            "path_prefix": "C:\\Windows\\System32\\", "publisher": "LunarG, Inc." }
     ],
 
-    "discord.exe": [
+    "discord.exe": [],
 
-    ],
-
-    "bstksvc.exe": [
-
-    ]
+    "bstksvc.exe": []
   }
 }
