@@ -18,7 +18,9 @@
     { "publisher": "Valve Corp." },
 	{ "publisher": "The Qt Company Oy" },
 	{ "publisher": "Google LLC" },
-	{ "publisher": "Google LLC" },
+	{ "publisher": "上海兆言网络科技有限公司" },
+	{ "publisher": "TikTok Pte. Ltd." },
+	{ "publisher": "OBS Project, LLC" },
     { "publisher": "Microsoft Corporation" }
   ],
 
@@ -33,13 +35,6 @@
 
   "dll_whitelist": {
     "hd-player.exe": [
-      { "dll": "agora_rtc_sdk.dll",       "path_prefix": "", "publisher": "上海兆言网络科技有限公司" },
-      { "dll": "libaosl.dll",             "path_prefix": "", "publisher": "上海兆言网络科技有限公司" },
-      { "dll": "libagora-soundtouch.dll", "path_prefix": "", "publisher": "上海兆言网络科技有限公司" },
-      { "dll": "libagora-ffmpeg.dll",     "path_prefix": "", "publisher": "上海兆言网络科技有限公司" },
-      { "dll": "libagora-fdkaac.dll",     "path_prefix": "", "publisher": "上海兆言网络科技有限公司" },
-      { "dll": "game_detour_64.dll",      "path_prefix": "", "publisher": "TikTok Pte. Ltd." },
-      { "dll": "graphics-hook64.dll",     "path_prefix": "", "publisher": "OBS Project, LLC" },
       { "dll": "vulkan-1.dll",            "path_prefix": "C:\\Windows\\System32\\", "publisher": "LunarG, Inc." }
     ],
 
